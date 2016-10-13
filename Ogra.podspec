@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author           = "Craig Edwards"
   s.source           = { :git => "https://github.com/edwardaux/Ogra.git", :tag => "#{s.version.to_s}" }
 
-  s.dependency 'Argo', '~> 3.1'
+  s.dependency 'Argo', '~> 4.0.0'
   s.source_files = 'Ogra/**/*.{h,swift}'
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
